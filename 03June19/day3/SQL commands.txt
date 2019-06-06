@@ -1,0 +1,9 @@
+cursor_obja.execute("CREATE TABLE players(id integer PRIMARY KEY, name text, team text, skill text, price real, country text)")
+
+cursor_obja.execute("""INSERT into players VALUES(30, "dhoni", "csk", "wk_bat", 678543, "ind")""")
+
+cursor_obja.execute("""INSERT into PLAYERS (id, name, team, skill, price, country) VALUES (?,?,?,?,?,?)""", [4, "kohli", "rcb", "batsman", 783452, "ind"])
+
+playerlista = (56, "sharmaji", "mi", "lazy_batsman", 679201, "ind")
+
+
