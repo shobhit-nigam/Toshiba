@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<unistd.h>
+
+void main(){
+	int i=2;
+	int pid = 0;
+	pid = getpid();
+	for(i=0; 10; i++)
+	{
+		printf("%d running since %d secs\n", pid, i);
+	}
+	return;
+}
