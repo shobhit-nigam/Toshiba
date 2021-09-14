@@ -1,6 +1,0 @@
-hello 22
-how-are-you 33
-i am great 777          how about you 77
-what else
-twenty-two is 22
-567 and 456         and 489
